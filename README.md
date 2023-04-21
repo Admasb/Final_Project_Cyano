@@ -2,8 +2,8 @@
 Lab notebook for gen 811
 
 new repo for project
-p /tmp/gen711_project_data/fastp.sh ~/fastp_singles.sh
 
+cp /tmp/gen711_project_data/fastp.sh ~/fastp_singles.sh
 chmod +x ~/fastp.sh
 
 mkdir trimmed_fastqs 
@@ -17,12 +17,6 @@ conda activate qiime2-2022.8
 cp /tmp/gen711_project_data/fastp-single.sh ~/fastp_single.sh
 chmod +x ~/fastp-single.sh
 ./fastp.sh 150 /tmp/gen711_project_data/cyano/fastqs trimmed_fastqs
-
-qiime tools import \
-   --type "SampleData[PairedEndSequencesWithQuality]"  \
-   --input-format CasavaOneEightSingleLanePerSampleDirFmt \
-   --input-path <path to your output directory of trimmed fastqs> \
-   --output-path <path to an output directory>/<a name for the output files> \
 
 ## Step 2
 qiime tools import --type /tmp/gen711_project_data/fastp_single.sh  --input-format CasavaOneEightSingleLanePerSampleDirFmt --input-path trimmed_fastqs --output-path ~/fastp_single.sh/denoised 
