@@ -30,4 +30,21 @@ qiime demux summarize \
 --i-data cutadapt_cyano.qza \
 --o-visualization demux_cyano.qzv 
 
-add lines
+qiime dada2 denoise-paired \
+    --i-demultiplexed-seqs <output path>/cutadapt-sequences-1.qza  \
+    --p-trunc-len-f  <trunclenf> \
+    --p-trunc-len-r <trunclenr> \
+    --p-trim-left-f 0 \
+    --p-trim-left-r 0 \
+    --p-n-threads 4 \
+    --o-denoising-stats <output path>/denoising-stats-1.qza \
+    --o-table <output path>/feature_table-1.qza \
+    --o-representative-sequences <output path>/rep-seqs-1.qza
+
+qiime metadata tabulate \
+    --m-input-file <output path>/denoising-stats.qza \
+    --o-visualization <output path>/denoising-stats.qzv
+
+qiime feature-table tabulate-seqs \
+        --i-data <output path>/rep-seqs.qza \
+        --o-visualization <output path>/rep-seqs.qzv
