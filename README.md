@@ -1,35 +1,16 @@
+Taxonomic Classification of Cyanobacteria using qiime2
 
-Lab notebook for gen 811
+Admas Berisso
 
-new repo for project
-
-cp /tmp/gen711_project_data/fastp.sh ~/fastp_singles.sh
-chmod +x ~/fastp.sh
-mkdir trimmed_fastqs 
-./fastp.sh 150 /tmp/gen711_project_data/cyano/fastqs trimmed_fastqs 
-
-conda activate qiime2-2022.8 
+Bacground:
+Cyanobacteria is the most ancient bacteria in the world traced back to the origion of life. Cyanobacterias otherwise named bluegreem algae are the one which has contobuted in the creation of axenic environment from reduced environment, and their contribution from an rna life to a dna life is notable. Today Cyanobacterias used as an important milestone to compare the other procaryotic life to the complex eucaryotic life to understand various studies in lifescience.  
 
 
-### for Cyano
-cp /tmp/gen711_project_data/fastp-single.sh ~/fastp_single.sh
-chmod +x ~/fastp-single.sh
-./fastp.sh 150 /tmp/gen711_project_data/cyano/fastqs trimmed_fastqs
+Methods
+The poly-g tails in the cyano sequence data has been trimmed using Fastp. Trimmed poly-g fastq filesa are imported with qza extension file using qiime tools import commands available in the script file ( analysis.sh) attached in this repo. The forward and reverse primers used during sequencing has been cleare using quimme 'cutadapt'plugin. These are cleared sequences with qza extesnion. The r-package 'dada2' has been used to denoise and fix sequensing errors. The counts of each unique sequence in qiime will be harvested from here. Finally taxonomy assignment was made to see the taxonomic diversity of the Cyanobacteria species for which sequnce classification and bar plotting has been done. 
+
+Findings
 
 
-## Step 2
-qiime tools import --type /tmp/gen711_project_data/fastp_single.sh  --input-format CasavaOneEightSingleLanePerSampleDirFmt --input-path trimmed_fastqs --output-path ~/fastp_single.sh/denoised 
 
-qiime tools import --type "SampleData[PairedEndSequencesWithQuality]"  --input-format CasavaOneEightSingleLanePerSampleDirFmt --input-path /home/users/ab1710/trimmed_fastqs --output-path home/users/ab1710/trimmed_fastqs out_put1
 
-## Step 3
-qiime cutadapt trim-paired --i-demultiplexed-sequences home/users/ab1710/trimmed_fastqs out_put1  --p-cores 4 --p-front-f GTCGGTAAAACTCGTGCCAGC --p-front-r CATAGTGGGGTATCTAATCCCAGTTTG --p-discard-untrimmed --p-match-adapter-wildcards --verbose  --o-trimmed-sequences home/users/ab1710/trimmed_fastqs out_put2 .qza
-
-qiime demux summarize --i-data home/users/ab1710/trimmed_fastqs out_put1 --o-visualization  home/users/ab1710/trimmed_fastqs out_put2/output3.qzv 
-
-## Step 4
-qiime dada2 denoise-paired --i-demultiplexed-seqs qiime_out/${run}_demux_cutadapt.qza   --p-trunc-len-f ${trunclenf} --p-trunc-len-r ${trunclenr}  --p-trim-left-f 0 --p-trim-left-r 0 --p-n-threads 4 --o-denoising-stats home/users/ab1710/trimmed_fastqs/denoising-stats.qza  --o-table home/users/ab1710/trimmed_fastqs/feature_table.qza --o-representative-sequences home/users/ab1710/trimmed_fastqs/rep-seqs.qza
-
-qiime metadata tabulate --m-input-file home/users/ab1710/trimmed_fastqs/denoising-stats.qza --o-visualization home/users/ab1710/trimmed_fastqs/denoising-stats.qzv
-
-qiime feature-table tabulate-seqs --i-data home/users/ab1710/trimmed_fastqs/rep-seqs.qza --o-visualization home/users/ab1710/trimmed_fastqs/rep-seqs.qzv
