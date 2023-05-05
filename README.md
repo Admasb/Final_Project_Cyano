@@ -1,4 +1,4 @@
-Taxonomic Classification of Cyanobacteria using qiime2
+Taxonomic Classification of Cyanobacteria using Qiime2
 
 Admas Berisso
 
