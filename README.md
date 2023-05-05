@@ -4,8 +4,7 @@ Admas Berisso
 
 Bacground:
 
-Cyanobacteria is the most ancient bacteria in the world traced back to the origion of life. Cyanobacterias otherwise named bluegreem algae are the one which has contobuted in the creation of axenic environment from reduced environment, and their contribution from an rna life to a dna life is notable. Today Cyanobacterias used as an important milestone to compare the other procaryotic life to the complex eucaryotic life to understand various studies in lifescience.  
-
+Cyanobacteria is the most ancient bacteria since the origion of life, and its origion as a primitive life form is documented to exist since some 4.5 billion years ago. Cyanobacterias otherwise named bluegreem algae is a major contributer in the creation of axenic environment from a reduced environment. Cyano is an important organism in the eye of evolutionary biology, and there is a notable interest to benchmark Cyano along with evolutionary chromometers to depict the genesis of life and to understand the shift from an rna life to a dna life- that we are having today. Moreover, cyanos are an important organisms in the eye of comparative genomics as well to becnhmark and compare the cellular development and fucntional genes in other procaryotic and complex multicelluar organisms with the change in time from orgion of life to the contemporary world.  
 
 Methods
 
