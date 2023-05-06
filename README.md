@@ -8,7 +8,7 @@ Cyanobacteria are the most ancient forms of life since their creation dated back
 
 Methods
 
-The poly-g tails in the cyano sequence data has been trimmed using Fastp. Trimmed poly-g fastq filesa are imported with qza extension file using qiime tools import commands available in the script file ( analysis.sh) attached in this repo. The forward and reverse primers used during sequencing has been cleare using quimme 'cutadapt'plugin. These are cleared sequences with qza extesnion. The r-package 'dada2' has been used to denoise and fix sequensing errors. The counts of each unique sequence in qiime will be harvested from here. Finally taxonomy assignment was made to see the taxonomic diversity of the Cyanobacteria species for which sequnce classification and bar plotting has been done. 
+A Cyanobacteria sequence data has been obtained, and  the poly-g tails in the data has been trimmed off using Fastp. The Trimmed poly-g fastq filesa are imported with qza extension file using qiime tools import commands available in the script file (the details attached in this repo under analysis.sh). The forward and reverse primers used during sequencing has been cleare using quimme 'cutadapt'plugin. These are cleared sequences with qza extesnion. The r-package 'dada2' has been used to denoise and fix sequensing errors. The counts of each unique sequence in qiime will be harvested from here. Finally taxonomy assignment was made to see the taxonomic diversity of the Cyanobacteria species for which sequnce classification and bar plotting has been done. 
 
 Findings
 
