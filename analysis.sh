@@ -32,19 +32,19 @@ qiime demux summarize \
 
 qiime dada2 denoise-paired \
     --i-demultiplexed-seqs <output path>/cutadapt-sequences-1.qza  \
-    --p-trunc-len-f  <trunclenf> \
-    --p-trunc-len-r <trunclenr> \
+    --p-trunc-len-f  0 \
+    --p-trunc-len-r 0 \
     --p-trim-left-f 0 \
     --p-trim-left-r 0 \
     --p-n-threads 4 \
-    --o-denoising-stats <output path>/denoising-stats-1.qza \
-    --o-table <output path>/feature_table-1.qza \
-    --o-representative-sequences <output path>/rep-seqs-1.qza
+    --o-denoising-stats denoising-stats-1.qza \
+    --o-table feature_table.qza \
+    --o-representative-sequences rep-seqs.qza
 
 qiime metadata tabulate \
-    --m-input-file <output path>/denoising-stats.qza \
-    --o-visualization <output path>/denoising-stats.qzv
+    --m-input-file denoising-stats.qza \
+    --o-visualization denoising-stats.qzv
 
 qiime feature-table tabulate-seqs \
-        --i-data <output path>/rep-seqs.qza \
-        --o-visualization <output path>/rep-seqs.qzv
+        --i-data rep-seqs.qza \
+        --o-visualization rep-seqs.qzv
