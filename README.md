@@ -1,4 +1,4 @@
-Understanding Cyanobacteria community from the ocean sample using Qiime2
+Understanding Cyanobacteria community from fresh water sample using Qiime2
 
 Admas Berisso
 
