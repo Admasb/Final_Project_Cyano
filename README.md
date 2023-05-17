@@ -21,7 +21,7 @@ Findings
 
 Discussion 
 
-The findings indicate the cyanobacterais three differnt species of cynaobacteria in a fresh water aquatic environment are coexisting with other numerous microbs and the microbila structure is presented differently.
+The findings listed the bacterial microbial composition found in the fresh water. They are classified in three domain names from zero to two to implicate domain, genera and species consecutively. In this community three differnt cyanobacteria communities, namely Cynaobacteria oxyphotobacteria,  Cyanobacteria mealinbacteria and Cyanobacteria Sericytochromatia have been idetnified. The pictures above indicatet their composition structure along with the other microbes in a descending arrangement when the green shed indicates cyanobacterias and fig 1-3 consequtively represent the affoementioned cyanobacteria species .   
 
 
 Refereces
