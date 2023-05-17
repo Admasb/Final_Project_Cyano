@@ -21,7 +21,7 @@ Result
 
 Discussion 
 
-The findings listed the microbial composition found in the fresh water. They are classified in three domain names from 0 to 2, when 0 refers to the Domain baceria, the remaining groupings goes to genera and species level classification accordingly. In this community three differnt cyanobacteria communities, namely Cynaobacteria oxyphotobacteria,  Cyanobacteria mealinbacteria and Cyanobacteria Sericytochromatia have been idetnified. The pictures above indicatet their composition structure along with the other microbes in a descending arrangement when the green shed indicates cyanobacterias and fig 1-3 consequtively represent the affoementioned cyanobacteria species in order .   
+The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a genera and species level classification accordingly. In this community three differnt cyanobacteria communities, namely Cynaobacteria oxyphotobacteria,  Cyanobacteria mealinbacteria and Cyanobacteria Sericytochromatia have been idetnified. The pictures above indicatet their composition structure along with the other microbes in a descending arrangement when the green shed indicates cyanobacterias and fig 1-3 consequtively represent the affoementioned cyanobacteria species in order .   
 
 
 Refereces
