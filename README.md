@@ -15,9 +15,7 @@ Result
 
 <img width="869" alt="Screen Shot 2023-05-09 at 12 48 24 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/90b9e88e-1ce9-438c-a528-1c9c6c754164">
 
-<img width="869" alt="Screen Shot 2023-05-09 at 12 51 18 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/eccf32ef-44e7-4dcd-ae2f-dc6c59761685">
 
-<img width="868" alt="Screen Shot 2023-05-09 at 12 54 09 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/34a0e122-58fc-4fc4-8525-3f5f58c6527e">
 
 Discussion 
 
