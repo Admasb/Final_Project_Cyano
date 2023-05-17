@@ -19,6 +19,10 @@ Findings
 <img width="868" alt="Screen Shot 2023-05-09 at 12 54 09 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/34a0e122-58fc-4fc4-8525-3f5f58c6527e">
 
 Discussion 
+The findings indicate the cyanobacterais three differnt species of cynaobacteria in a fresh water aquatic environment are coexisting with other numerous microbs and the microbila structure is presented differently.
+
+
 Refereces
+
 Hamilton TL, Bryant DA, Macalady JL (2016). The role of biology in planetary evolution: cyanobacterail primary production in low oxygen proterozoic oceans. Evolutionary Microbiol. 18:325-340
 
