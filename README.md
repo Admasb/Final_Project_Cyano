@@ -8,7 +8,8 @@ Cyanobacteria are the most ancient forms of life since their creation dated back
 
 Methods
 
-A Cyanobacteria sequence data has been obtained from Hubbard Gencomic Center of the University of New Hampshire, and a multi stage data clearing has been achieved by trimming the poly-g tails in the data using Fastp. The Trimmed poly-g fastq filesa were imported with qza extension file and Qiime tools has been used to import commands. The command is available in the script file (attached in this repo with a file name analysis.sh). The forward and reverse primers used during sequencing have been cleared using qiimme 'cutadapt'plugin. The cleared sequences with qza extesnion are further used for analysis. We have used the r-package 'dada2' to denoise and fix sequensing errors. Finally, the counts of each unique sequence in qiime were harvested, and taxonomy assignment was made to see the taxonomic diversity of the Cyanobacteria community.To complete the work sequnce classification and bar plotting were done, and the distribution pattern has been observed in a PCA plot.
+A Cyanobacteria sequence data has been obtained from Hubbard Gencomic Center of the University of New Hampshire, and a multi stage data clearing has been achieved by trimming the poly-g tails in the data using Fastp. The Trimmed poly-g fastq filesa were imported with qza extension file and Qiime tools has been used to import commands. Acccording to Kuczynski et al (2011) QIIME (canonically prononced 'chime') is a software that performs microbial community analysis. 
+The command is available in the script file (attached in this repo with a file name analysis.sh). The forward and reverse primers used during sequencing have been cleared using qiimme 'cutadapt'plugin. The cleared sequences with qza extesnion are further used for analysis. We have used the r-package 'dada2' to denoise and fix sequensing errors. Finally, the counts of each unique sequence in qiime were harvested, and taxonomy assignment was made to see the taxonomic diversity of the Cyanobacteria community.To complete the work sequnce classification and bar plotting were done, and the distribution pattern has been observed in a PCA plot.
 
 Findings
 
@@ -19,6 +20,7 @@ Findings
 <img width="868" alt="Screen Shot 2023-05-09 at 12 54 09 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/34a0e122-58fc-4fc4-8525-3f5f58c6527e">
 
 Discussion 
+
 The findings indicate the cyanobacterais three differnt species of cynaobacteria in a fresh water aquatic environment are coexisting with other numerous microbs and the microbila structure is presented differently.
 
 
@@ -26,3 +28,4 @@ Refereces
 
 Hamilton TL, Bryant DA, Macalady JL (2016). The role of biology in planetary evolution: cyanobacterail primary production in low oxygen proterozoic oceans. Evolutionary Microbiol. 18:325-340
 
+Kuczynski J, Stombaugh J, Walters WA, Gonzalez A, Caporaso JG, Knight R. Using QIIME to analysze 16S rRNA gene sequences from microbial communities. Curr Protoc Bioinformatics. 2011 Dec. doi: 10.1002/0471250953.bi1007s36
