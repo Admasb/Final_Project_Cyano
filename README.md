@@ -4,7 +4,7 @@ Admas Berisso
 
 Bacground:
 
-Cyanobacteria are the most ancient forms of life since their creation dated back to the origion of the universe some 4.5 billion years ago. This group of bacterias are also named as bluegreen algae. They are the first oxygen producers that enable turning a reduced environment in to an oxidized environment. They were in a boarder of transiton from an RNA life in to a DNA life, and they still exist today. Hence, their improtance in the eye of evolutionary biology, and comparative evoultion is of great interest. Their existance has made it easier to compare and contrast the major biological developments between lives in a contemporary and ancient landscapes of evolutionary biology. Most often than not, the study of cyanobacterias also related with the stduy of evolutionary chromometers, like 16s rRNA, that is used to trace the taxas where an individual in a species belongs to. These group of Bacteria were there in the bottom of the phylogenetic tree of life, and they are still around spreading ubuquetously. Ancient bacterias can exist as a free-living; symbiont; and/or  changing thier form being reduced in to an organelle in Eucaryotic bodies. This implicates how the use of small ribosomal RNAs makes a sense in depicting the ancesteral relationship in all forms of life. Moreover, Cyanobacterias are of of immense use in comparative genomics and evolutionary biology without whom understanding the complexity of life and bechmarking its dynamics in a time frame would be hardly possible.
+Cyanobacteria are the most ancient forms of life since their creation dated back to the origion of the universe some 4.5 billion years ago. This group of bacterias are also named as bluegreen algae. They are the first oxygen producers that enable turning a reduced environment in to an oxidized environment during great oxygenation even (Hamilton et al, 2016). They were in a boarder of transiton from an RNA life in to a DNA life, and they still exist today. Hence, their improtance in the eye of evolutionary biology, and comparative evoultion is of great interest. Their existance has made it easier to compare and contrast the major biological developments between lives in a contemporary and ancient landscapes of evolutionary biology. Most often than not, the study of cyanobacterias also related with the stduy of evolutionary chromometers, like 16s rRNA, that is used to trace the taxas where an individual in a species belongs to. These group of Bacteria were there in the bottom of the phylogenetic tree of life, and they are still around spreading ubuquetously. Ancient bacterias can exist as a free-living; symbiont; and/or  changing thier form being reduced in to an organelle in Eucaryotic bodies. This implicates how the use of small ribosomal RNAs makes a sense in depicting the ancesteral relationship in all forms of life. Moreover, Cyanobacterias are of of immense use in comparative genomics and evolutionary biology without whom understanding the complexity of life and bechmarking its dynamics in a time frame would be hardly possible.
 
 Methods
 
@@ -18,5 +18,7 @@ Findings
 
 <img width="868" alt="Screen Shot 2023-05-09 at 12 54 09 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/34a0e122-58fc-4fc4-8525-3f5f58c6527e">
 
-
+Discussion 
+Refereces
+Hamilton TL, Bryant DA, Macalady JL (2016). The role of biology in planetary evolution: cyanobacterail primary production in low oxygen proterozoic oceans. Evolutionary Microbiol. 18:325-340
 
