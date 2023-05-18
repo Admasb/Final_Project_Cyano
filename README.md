@@ -19,7 +19,11 @@ Fig 1. Cyanobacteria oxphotobacteria
 
 <img width="880" alt="2  Cyanobacteria mealinbacteria" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/f75af358-ddc5-41e9-90b0-5c2d9ea451a2">
 
+Fig 2. Cyanobacteria mealinbacteria
+
 <img width="877" alt="3  Cyanobacteria Sericytochromatia" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/5d4815a9-4013-4c0b-9a98-b63d652939d3">
+
+Fig 3. Cyano bacteria Sericytochromatia
 
 <img width="573" alt="Unwt unifrac emperor" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/f96c95fc-99ef-4b90-b9fb-a6150f33fa60">
 
