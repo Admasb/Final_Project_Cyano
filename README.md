@@ -38,6 +38,9 @@ Discussion
 
 The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a genera and a class/phyla classification respectively. In this community three differnt cyanobacteria communities, namely Cyanobacteria mealinbacteria, Cynaobacteria oxyphotobacteria, and Cyanobacteria Sericytochromatia have been idetnified. The phyla mealinbacteria is non-photosyntheic, the class oxyphotobacteria is photosynthetic and the class Sarichromatia is a paraphyletic and the ancestor of the other two types.  The above figures indicates that the microbial structure of the afforementioned three cyanobactera community respectively along with their other associated microbes. 
 
+Acknowledgement
+
+The Author would like to thank his Bioinformatics and Genomics Professor - Dr. Jeff T. Miller for his dedication and unreserved support to bring this project to fruition. 
 
 Refereces
 
