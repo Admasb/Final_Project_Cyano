@@ -18,7 +18,6 @@ qiime tools import \
    --input-path  fastp_fq \
    --output-path qiime_out/cyano.qza
 
-
 qiime cutadapt trim-paired \
     --i-demultiplexed-sequences qiime_out/cyano.qza  \
     --p-cores 4 \
@@ -34,7 +33,6 @@ qiime demux summarize \
 --o-visualization demux_cyano.qzv 
 
 #Denoising
-
 qiime dada2 denoise-paired \
     --i-demultiplexed-seqs cutadapt_cyano.qza  \
     --p-trunc-len-f  0 \
