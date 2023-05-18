@@ -1,4 +1,4 @@
-Understanding Cyanobacteria community from fresh water sample using Qiime2
+Understanding Cyanobacteria community from freshwater sample using Qiime2
 
 Admas Berisso
 
@@ -8,7 +8,7 @@ Cyanobacteria are the most ancient forms of life; the major primary producers in
 
 Methods
 
-The samples from Lower Mill Pond has been colected in a four moths period that extends from June to October 2022. Sequence files in a form of fastq has been obtained from Hubbard Gencomic Center of the University of New Hampshire. The sequence data has undergone  a multi stage data clearing process. Hence, the poly-g tails has been trimmed using Fastp. The trimmed fastq files were imported with qza extension file and Qiime tools has been deployed to import commands. Acccording to Kuczynski et al (2011) QIIME (canonically pronounced 'chime') is a software that performs microbial community analysis. 
+The samples from Lower Mill Pond has been colected in a five months period that extends from June to October 2022. Sequence files in a form of fastq has been obtained from Hubbard Gencomic Center of the University of New Hampshire. The sequence data has undergone  a multi stage data clearing process. Hence, the poly-g tails has been trimmed using Fastp. The trimmed fastq files were imported with qza extension file and Qiime tools has been deployed to import commands. Acccording to Kuczynski et al (2011) QIIME (canonically pronounced 'chime') is a software that performs microbial community analysis. 
 The command script used for the analysis is included in in this repository separately with a file name 'analysis.sh'. The forward and reverse primers used during sequencing have been cleared using qiimme 'cutadapt'plugin. The cleared sequences with qza extesnion are further used for analysis.The r-package 'dada2' to has been used to denoise and fix sequensing errors. Finally, the counts of each unique sequence in qiime were harvested, and taxonomy assignment was made to see the taxonomic diversity of the Cyanobacteria community.To complete the work sequence classification and bar plotting were done, and the distribution pattern has been observed in a PCA plot.
 
 Result
