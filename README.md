@@ -15,7 +15,7 @@ Result
 
 <img width="869" alt="Screen Shot 2023-05-09 at 12 48 24 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/90b9e88e-1ce9-438c-a528-1c9c6c754164">
 
-<img width="894" alt="1  Cyanobacteria oxphotobacteria" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/72e36840-0bca-479c-b299-a42f3d7459bf">
+<img width="880" alt="2  Cyanobacteria mealinbacteria" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/f75af358-ddc5-41e9-90b0-5c2d9ea451a2">
 
 <img width="877" alt="3  Cyanobacteria Sericytochromatia" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/5d4815a9-4013-4c0b-9a98-b63d652939d3">
 
