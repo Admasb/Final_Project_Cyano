@@ -26,6 +26,8 @@ Fig 2. Cyanobacteria mealinbacteria
 Fig 3. Cyano bacteria Sericytochromatia
 
 <img width="573" alt="Unwt unifrac emperor" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/f96c95fc-99ef-4b90-b9fb-a6150f33fa60">
+
+
 Fig 4. PCA plt for Unweight Unifrac Emperor 
 
 <img width="544" alt="Jaccard Emperor" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/b210e3f4-283f-4cb9-8c7d-c4ada847fc4b">
