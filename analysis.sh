@@ -1,7 +1,6 @@
 
 ## output files are in ~/qiime-analysis
 ## scripts are in ~/Final_Project_Cyano
-## PCA second step table.qza is replaced by feature_table.qza
 
 conda activate qiime2-2022.8
 
@@ -33,7 +32,8 @@ qiime cutadapt trim-paired \
 qiime demux summarize \
 --i-data cutadapt_cyano.qza \
 --o-visualization demux_cyano.qzv 
-## Denoising
+
+#Denoising
 
 qiime dada2 denoise-paired \
     --i-demultiplexed-seqs cutadapt_cyano.qza  \
@@ -54,14 +54,13 @@ qiime dada2 denoise-paired \
         --i-data rep-seqs.qza \
         --o-visualization rep-seqs.qzv
 
-  #Taxonomy assignment  
+# Taxonomy assignment  
   #classify rep seqs   
  qiime feature-classifier classify-sklearn \
 --i-classifier /tmp/gen711_project_data/cyano/classifier_16S_V4-V5.qza \
 --i-reads rep-seqs.qza \
 --o-classification cyano_taxo
-
-## here is what is needed for all other data 
+#
 qiime feature-classifier classify-consensus-vsearch \
 --i-query rep-seqs.qza \
 --i-reference-reads /tmp/gen711_project_data/reference_databases/silva132_99.qza \
@@ -72,20 +71,20 @@ qiime feature-classifier classify-consensus-vsearch \
 --p-threads 36 \
 --o-classification taxonomy.qza
 
-### Barplot 
+# Barplot 
 qiime taxa barplot \
      --i-table feature_table.qza \
      --m-metadata-file /tmp/gen711_project_data/cyano/metadata.tsv \
      --i-taxonomy taxonomy.qza \
      --o-visualization my-barplot.qzv
 
-Feature table
+# Feature table
      qiime feature-table filter-samples \
   --i-table feature_table.qza \
   --m-metadata-file /tmp/gen711_project_data/cyano/metadata.tsv \
   --o-filtered-table new_samples_table.qza
 
-#PCA Plot
+# PCA Plot
 
 qiime phylogeny align-to-tree-mafft-fasttree \
 --i-sequences rep-seqs.qza \
@@ -101,9 +100,7 @@ qiime diversity core-metrics-phylogenetic \
 --p-sampling-depth 1500 \
 --m-metadata-file /tmp/gen711_project_data/cyano/metadata.tsv \
 --output-dir core-metrics-phylogenetics
-
-##
-##
+#
 qiime feature-table relative-frequency \
 --i-table core-metrics-phylogenetics/rarefied_table.qza \
 --o-relative-frequency-table core-metrics-phylogenetics/relative_rarefied_table
@@ -113,10 +110,10 @@ qiime diversity pcoa-biplot \
 --i-pcoa core-metrics-phylogenetics/unweighted_unifrac_pcoa_results.qza \
 --o-biplot core-metrics-phylogenetics/unweighted_unifrac_pcoa_biplot
 
-## error
+#error
 qiime emperor biplot \
 --i-biplot core-metrics-phylogenetics/unweighted_unifrac_pcoa_biplot.qza \
 --m-sample-metadata-file /tmp/gen711_project_data/cyano/metadata.tsv \
 --o-visualization core-metrics-phylogenetics/unweighted_unifrac_pcoa_biplot
 
-##
+###
