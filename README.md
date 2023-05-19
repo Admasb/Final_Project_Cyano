@@ -40,7 +40,7 @@ Fig 5. PCA Plot for Jaccard Emperor
 
 Discussion 
 
-The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a 'genera' and a 'class/phyla' level classification respectively. In this community three differnt cyanobacteria communities, namely Cynaobacteria oxyphotobacteria, Cyanobacteria mealinbacteria, and Cyanobacteria Sericytochromatia have been idetnified. The phyla mealinbacteria is a non-photosyntheic cyanobacteria, the class oxyphotobacteria is photosynthetic and the class Sarichromatia is a paraphyletic ancestor of the other two types. The study didn't indicate if there is a time specific microbial colonization pattern during the specified sampling period.
+The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a 'genera' and a 'class/phyla' level classification respectively. In this community three differnt cyanobacteria communities, namely Cynaobacteria oxyphotobacteria, Cyanobacteria mealinbacteria, and Cyanobacteria Sericytochromatia have been idetnified. The phyla mealinbacteria is a non-photosyntheic cyanobacteria, the class oxyphotobacteria is photosynthetic and the class Sarichromatia is a paraphyletic ancestor of the other two types. The study doesn't indicate if there is a time specific microbial colonization trend during the specified sampling period.
 
 Acknowledgement
 
