@@ -36,7 +36,9 @@ Fig 5. PCA Plot for Jaccard Emperor
 
 Discussion 
 
-The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a genera and a class/phyla classification respectively. In this community three differnt cyanobacteria communities, namely Cyanobacteria mealinbacteria, Cynaobacteria oxyphotobacteria, and Cyanobacteria Sericytochromatia have been idetnified. The phyla mealinbacteria is non-photosyntheic, the class oxyphotobacteria is photosynthetic and the class Sarichromatia is a paraphyletic and the ancestor of the other two types.  The above figures indicates that the microbial structure of the afforementioned three cyanobactera community respectively along with their other associated microbes. 
+The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a genera and a class/phyla classification respectively. In this community three differnt cyanobacteria communities, namely Cyanobacteria mealinbacteria, Cynaobacteria oxyphotobacteria, and Cyanobacteria Sericytochromatia have been idetnified. The phyla mealinbacteria is non-photosyntheic, the class oxyphotobacteria is photosynthetic and the class Sarichromatia is a paraphyletic and the ancestor of the other two types. Fig 1. illustrates that oxophotobacteria in green is having a clear structure and not much intermixed with other microbes in the community. wheras mealinbacteria in Fig 2 in green is highly perturbated, and Serisytochromaia is represented in yellow in Fig 3 is having a diminshed population structure.
+
+The PCA plot in Fig 4 the unweight unifrac emperror or beta diversity indicates there is a distance indicating the composition differnce with the available microbes and, the Jaccard Emperror in Fig 5. shows the maximum dissimilarity between samples  in the x-axis. 
 
 Acknowledgement
 
