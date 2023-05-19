@@ -27,9 +27,10 @@ Fig 2. Cyanobacteria mealinbacteria
 
 Fig 3. Cyano bacteria Sericytochromatia
 
-<img width="573" alt="Unwt unifrac emperor" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/f96c95fc-99ef-4b90-b9fb-a6150f33fa60">
 
 The PCA plots indicate the similarity and diversity of microbial composition as well as sample compositions. The PCA plot in Fig 4 the unweight unifrac emperror or generally the beta diversity indicates there is a distance indicating the composition differnce with the available microbes and, the Jaccard Emperror dissimilarity index in Fig 5. shows the maximum dissimilarity between samples in the x-axis of the plot. 
+
+<img width="573" alt="Unwt unifrac emperor" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/f96c95fc-99ef-4b90-b9fb-a6150f33fa60">
 
 Fig 4. PCA plot for Unweight Unifrac Emperor 
 
