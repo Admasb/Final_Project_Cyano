@@ -13,6 +13,8 @@ The command script used for the analysis is included in in this repository separ
 
 Result
 
+The result indicate cyanobacteria exist in a freshwater sample along with other microbes in a comunity. Fig 1. below illustrates  Cyanobaceria oxophotobacteria (in green) is having a clear structure and not much intermixed with other microbes in the community. wheras mealinbacteria in Fig 2 (again in green) is highly perturbated, and Serisytochromaia is Fig 3. represented in yellow is having a diminshed population structure compared to the otehr two.
+
 <img width="869" alt="Screen Shot 2023-05-09 at 12 48 24 PM" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/90b9e88e-1ce9-438c-a528-1c9c6c754164">
 
 Fig 1. Cyanobacteria oxphotobacteria
@@ -27,8 +29,9 @@ Fig 3. Cyano bacteria Sericytochromatia
 
 <img width="573" alt="Unwt unifrac emperor" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/f96c95fc-99ef-4b90-b9fb-a6150f33fa60">
 
+The PCA plots indicate the similarity and diversity of microbial composition as well as sample compositions. The PCA plot in Fig 4 the unweight unifrac emperror or generally the beta diversity indicates there is a distance indicating the composition differnce with the available microbes and, the Jaccard Emperror dissimilarity index in Fig 5. shows the maximum dissimilarity between samples in the x-axis of the plot. 
 
-Fig 4. PCA plt for Unweight Unifrac Emperor 
+Fig 4. PCA plot for Unweight Unifrac Emperor 
 
 <img width="544" alt="Jaccard Emperor" src="https://github.com/Admasb/Final_Project_Cyano/assets/126387239/b210e3f4-283f-4cb9-8c7d-c4ada847fc4b">
 
@@ -36,9 +39,7 @@ Fig 5. PCA Plot for Jaccard Emperor
 
 Discussion 
 
-The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a genera and a class/phyla classification respectively. In this community three differnt cyanobacteria communities, namely Cyanobacteria mealinbacteria, Cynaobacteria oxyphotobacteria, and Cyanobacteria Sericytochromatia have been idetnified. The phyla mealinbacteria is non-photosyntheic, the class oxyphotobacteria is photosynthetic and the class Sarichromatia is a paraphyletic and the ancestor of the other two types. Fig 1. illustrates that oxophotobacteria in green is having a clear structure and not much intermixed with other microbes in the community. wheras mealinbacteria in Fig 2 in green is highly perturbated, and Serisytochromaia is represented in yellow in Fig 3 is having a diminshed population structure.
-
-The PCA plot in Fig 4 the unweight unifrac emperror or beta diversity indicates there is a distance indicating the composition differnce with the available microbes and, the Jaccard Emperror in Fig 5. shows the maximum dissimilarity between samples  in the x-axis. 
+The findings listed the microbial composition found in the fresh water. They are classified in three domain names from "0" to "2", when "0" refers to the Domain baceria, the remaining domain labels goes to a 'genera' and a 'class/phyla' level classification respectively. In this community three differnt cyanobacteria communities, namely Cynaobacteria oxyphotobacteria, Cyanobacteria mealinbacteria, and Cyanobacteria Sericytochromatia have been idetnified. The phyla mealinbacteria is a non-photosyntheic cyanobacteria, the class oxyphotobacteria is photosynthetic and the class Sarichromatia is a paraphyletic ancestor of the other two types. The study didn't indicate if there is a time specific microbial colonization pattern during the specified sampling period.
 
 Acknowledgement
 
